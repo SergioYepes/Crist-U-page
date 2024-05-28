@@ -1,0 +1,45 @@
+body{
+    background-color: #a9a9a9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section_header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.image_header{
+    width: 800px;
+}
+.title_header{
+    
+    color: #fff;
+    font-size: 38px;
+}
+.section_content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 5rem;
+}
+.description_content{
+    text-align: center;
+    width: 40%;
+    font-size: 18px;
+    margin-bottom: 4rem;
+}
+.call2action_content{
+    color: #1D2734;
+    font-size: 20px;
+    width: 40%;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(240, 248, 255, 0.701);
+    box-shadow: 1px 1px 25px 34px rgba(215,203,242,0.75);
+    -webkit-box-shadow: 1px 1px 25px 34px rgba(215,203,242,0.75);
+    -moz-box-shadow: 1px 1px 25px 34px rgba(215,203,242,0.75);
+}
+.section_videos{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
